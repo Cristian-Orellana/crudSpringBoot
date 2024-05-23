@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.color-blue-one{
+    color: #337eff;
+}
+
+
+.color-red-one{
+  color: #ff3636;
+}
+
+.cursor-pointer{
+    cursor: pointer !important;
+}
+
+/* Estilos específicos del modal */
+.modal {
+    z-index: 1000;
+  }
+  
+  /* Restringe el tamaño del modal */
+  .modal-container {
+    max-width: 90%;
+  }
+  
+  /* Estilos para el botón de cerrar */
+  .modal-close {
+    cursor: pointer;
+  }
+
+  .w-modal{
+    width: 600px !important;
+  }
+
+  .title-modal{
+    margin-top: 15px !important;
+    margin-left: 20px !important;
+  }
+
+
+  .container {
+    position: relative;
+    z-index: 1; /* Asegura que el contenido del container esté por debajo del modal-overlay */
+  }
+  
+  .modal-overlay {
+    z-index: 10; /* Asegura que el overlay esté por debajo del modal pero por encima del contenido del container */
+  }
+
+  .w-100{
+    width: 100%;
+  }
+
+  .h-search{
+    height: 15px !important;
+  }
+
+  .button-create{
+    height: 20px !important;
+  }
+
+  .thead-title{
+    background-color: black !important;
+    color: white !important;
+  }
+
+  .mat-mdc-row, .mdc-data-table__content tr:hover {
+    background-color: #f2f2f2;
+  }
+
+  .status-enabled{
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+  }
+
+  .status-disabled{
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+  }
+
+  .mat-column-rut{
+    width: 120px !important;
+  }
+
+  .mat-column-fist_name{
+    min-width: 150px !important;
+  }
+
+  .mat-column-last_name_father{
+    min-width: 150px !important;
+  }
+
+  .mat-column-last_name_mother{
+    min-width: 150px !important;
+  }
+
+  .mat-column-email{
+    min-width: 150px !important;
+  }
+
+  .mat-cellphone{
+    min-width: 150px !important;
+  }
+
+  .mat-column-status{
+    min-width: 80px !important;
+  }
+
+  .mat-options{
+    min-width: 150px !important;
+  }
